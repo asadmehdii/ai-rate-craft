@@ -61,7 +61,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				calculator: {
+					bg: 'hsl(var(--calculator-bg))',
+					card: 'hsl(var(--calculator-card))',
+					accent: 'hsl(var(--calculator-accent))',
+					success: 'hsl(var(--calculator-success))',
+					warning: 'hsl(var(--calculator-warning))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'calculator': 'var(--shadow-calculator)',
+				'card-hover': 'var(--shadow-card)',
+				'glow': 'var(--shadow-glow)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'spring': 'cubic-bezier(0.175, 0.885, 0.32, 1.275)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
